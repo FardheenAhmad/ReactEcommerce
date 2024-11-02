@@ -1,0 +1,160 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+
+
+
+.card {
+  padding: 2em;
+}
+
+.read-the-docs {
+  color: #888;
+}
+
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f4f4f4; 
+}
+nav {
+  background-color: #343a40; 
+  padding: 1rem;
+  display: flex;
+  justify-content: center;
+  gap: 1.5rem;
+}
+
+nav a {
+  color: rgb(0, 0, 0);
+  background-color: hsl(106, 67%, 59%);
+  padding: 0.75rem 1.5rem;
+  border-radius: 15px; /* Rounded corners */
+  text-decoration: none; /* Remove underline */
+  font-size: 1rem; /* Button text size */
+  font-weight: bold; /* Bold text */
+  transition: all 0.3s ease; /* Smooth hover effect */
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Light shadow for button effect */
+}
+
+nav a:hover {
+  background-color: #0056b3; 
+  box-shadow: 0 6px 8px rgba(0, 0, 0, 0.15); 
+  transform: translateY(-2px); 
+}
+
+/* Active link styling */
+nav a.active {
+  background-color: #28a745; /* Green background for active link */
+  color: white;
+}
+
+/* Container for the page content */
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 2rem;
+  background-color: white; 
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); 
+  border-radius: 10px; 
+}
+
+.mt-4 {
+  margin-top: rem;
+}
+
+@media (max-width: 768px) {
+  nav {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  nav a {
+    margin-bottom: 1rem;
+  }
+}
+
+
+
+
+.container {
+  margin: 20px;
+}
+
+.flex-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+}
+
+.card {
+  width: 200px;
+  border: 1px solid #d7d5d5a5;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 4px 8px rgba(15, 15, 15, 0.1);
+  text-align: center;
+}
+
+.card-img {
+  width: 100%;
+  height: 150px;
+  object-fit: cover;
+  border-radius: 7%;
+}
+
+.card-body {
+  padding: 10px;
+}
+
+.card-title {
+  font-size: 1.2em;
+  margin: 0.5em 0;
+}
+
+.card-text {
+  font-size: 0.9em;
+  margin: 0.5em 0;
+}
+
+.btn {
+  margin: 5px;
+  padding: 5px 10px;
+  font-size: 0.9em;
+  cursor: pointer;
+}
+
+
+.btnp
+{
+  color: #28a745;
+  font-weight: 800;
+  font-size:medium;
+  background-color: rgb(255, 255, 255);
+}
+.btnm{
+  color: #f81414;
+  font-weight: 800;
+  font-size:medium;
+  background-color: rgb(255, 255, 255); 
+}
+.btnadd{
+  
+  color: #050000;
+  background-color: #88888880;
+  
+  
+}
+
+.btnadd:hover{
+  background-color: greenyellow;
+  zoom: 1.4;
+}
+
