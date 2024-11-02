@@ -13,9 +13,7 @@ function App()
 {
   return(
     <>
-    <GoogleOAuthProvider clientId={""}>
-<GoogleLogin/>
-</GoogleOAuthProvider>
+
 <BrowserRouter>
 <nav><Link to="/">Home </Link>
 <Link to="/veg">Veg</Link>
